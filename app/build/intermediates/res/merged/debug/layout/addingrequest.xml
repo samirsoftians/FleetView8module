@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+   
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        >
+ <include
+        android:layout_weight="0.09"
+        layout="@layout/header" />
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            
+            android:text="Vehicle Non-Usage Intimation"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="sans"
+             android:textStyle="bold"/>
+ 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/vehno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Vehicle No.     "
+                android:textColor="#000000"
+                 android:textSize="18sp"
+               />
+
+            <Spinner
+                android:id="@+id/vehiclespinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+      <!--   <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#b7c3c2" /> -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/fmdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            
+                android:text="Select From Date     "
+                android:textColor="#000000"
+                  android:textSize="18sp"
+                android:typeface="normal" />
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/c11" />
+ 			</LinearLayout>
+             <TextView
+                android:id="@+id/fromdate"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+
+                android:text="00/00/0000"
+                android:textColor="#000000"
+                 android:textSize="18sp"
+                android:typeface="normal" />
+
+
+                  
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#b7c3c2" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                            android:text="Select To Date          "
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:typeface="normal" />
+
+            
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/c11" />
+            
+
+        </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/todate"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+
+                android:text="00/00/0000"
+                android:textColor="#000000"
+                  android:textSize="18sp"
+                android:typeface="normal" />
+         <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#b7c3c2" /> 
+
+        <LinearLayout
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.70"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/spcmmt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              
+                android:text="Special Comment"
+                android:textColor="#000000"
+                  android:textSize="18sp"
+                android:typeface="normal" />
+
+            <Spinner
+                android:id="@+id/spinnercomments"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+             <!--   <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#b7c3c2" /> -->
+            <EditText
+                android:id="@+id/othercomments"
+                android:layout_width="300dp"
+               android:hint="Enter Remark"
+               android:textColor="#000000"
+                 android:textSize="18sp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+   <!--      <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#b7c3c2" /> -->
+
+        <!-- <Button
+            android:id="@+id/submit"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:paddingEnd="30dp"
+            android:background="@drawable/sub"
+            android:textColor="#000000"
+            android:textSize="18sp" /> -->
+               <Button
+        android:id="@+id/submit"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Submit"
+          android:layout_marginTop="50dp"
+        android:background="@drawable/highlighed" />
+        
+         <!-- Footer aligned to bottom -->
+
+
+<RelativeLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="170dp"
+    >
+    <include layout="@layout/footer" />
+    
+    </RelativeLayout>
+    </LinearLayout>
+
+   
+</ScrollView>

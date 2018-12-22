@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background=	"#ded4e0"
+    android:orientation="vertical" >
+    
+    
+    
+    <!-- Header aligned to top -->
+
+    <include
+       
+        layout="@layout/header" />
+
+       <ListView
+           android:id="@+id/loginas"
+           android:layout_width="wrap_content"
+           android:layout_height="330dp"
+           android:textSize="20dp" />
+         
+           <include
+               
+               layout="@layout/footer" />
+
+    <!-- 
+     <TextView 
+        android:id="@+id/loginas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="List"
+         android:layout_marginTop="20dp"
+         
+         android:textSize="20dp"
+         android:textColor="@android:color/white"
+        />
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VehicleRegisterNumber"
+         android:layout_marginTop="20dp"
+         android:textSize="20dp"
+         android:textColor="@android:color/white"
+        />
+    
+    <TextView 
+        android:id="@+id/vehregno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="VehicleRegisterNumber"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        />
+    
+
+</LinearLayout>
+ <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0276FD" />
+    
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AlertStatus"
+         android:textSize="20dp"
+        android:textColor="@android:color/white"
+        />
+    
+    <TextView 
+        android:id="@+id/alertstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="VehicleRegisterNumber"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        />
+    
+
+</LinearLayout>    
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0276FD" />
+
+    
+    
+    
+        <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UpdateDateTime"
+         android:textSize="20dp"
+         android:textColor="@android:color/white"
+        />
+    
+    <TextView 
+        android:id="@+id/updatedatetm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="UpdateDateTime"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        />
+    
+
+</LinearLayout>    
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0276FD" />
+    
+     --> 
+    
+</LinearLayout>

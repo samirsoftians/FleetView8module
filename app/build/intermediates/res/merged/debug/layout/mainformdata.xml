@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    
+    
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/img1"
+        android:layout_width="116dp"
+        android:layout_height="158dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="22dp"
+        android:textColor="#000000"
+       
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/vehinticon"
+        android:text="\nVehicle Intimation"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#b7c3c2" />
+
+    <TextView
+        android:id="@+id/img2"
+        android:layout_width="122dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="23dp"
+        android:textColor="#000000"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/iconodometer"
+        android:text="\nOdometer Reading"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#0276FD" />
+</LinearLayout>
+        
+           <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#b7c3c2" />
+    
+</LinearLayout>

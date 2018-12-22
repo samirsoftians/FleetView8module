@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/white"
+
+     >
+
+    <LinearLayout 
+        
+         android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+   android:background="@android:color/white"
+    
+        >
+      <include
+        
+        layout="@layout/header" />
+        
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Odometer Information"
+        android:textColor="#000000"
+       
+        android:textSize="20dp"
+        android:typeface="sans"
+         android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/odo_vehno"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+         
+            android:text="Vehicle No.     "
+            android:textColor="#000000"
+              android:textSize="18sp"
+           
+            android:typeface="normal" />
+
+        <Spinner
+            android:id="@+id/vehnopinner"
+            android:layout_width="match_parent"
+         
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+<!--   <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#b7c3c2" /> -->
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+     >
+
+        <TextView
+            android:id="@+id/odo_currentdate"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            
+            android:text="Date  "
+            android:textColor="#000000"
+              android:textSize="18sp"
+            android:typeface="normal" />
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginTop="8dp"
+            android:src="@drawable/c11" />
+
+          </LinearLayout>
+         <TextView
+            android:id="@+id/date"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+              android:textSize="18sp"
+         
+            android:text="00/00/0000" /> 
+            
+         
+         
+         
+          
+           <!--   <DatePicker
+        android:id="@+id/date"
+      
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp" /> -->
+  
+   
+  <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#b7c3c2" />
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/odo_time"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+          
+            android:text="Time                "
+            android:textColor="#000000"
+              android:textSize="18sp"
+            android:typeface="normal" />
+       
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="1dp"
+            android:src="@drawable/t1" />
+        
+           </LinearLayout>
+        
+        
+       <!--  <TextView
+            android:id="@+id/OdH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:text="HH"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif" />
+        --> 
+       <!--  <EditText
+            android:id="@+id/timehh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:inputType="time"  /> -->
+            
+           <!--  <TimePicker
+                android:id="@+id/time" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                
+                /> -->
+            
+            <TextView
+                android:id="@+id/time"
+               
+                  android:textColor="#000000"
+                   android:layout_width="400dp"
+            android:layout_height="wrap_content"
+          
+               android:textSize="18sp"
+                  android:text="00:00:00"/>
+            
+
+     <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#b7c3c2" /> 
+    
+    
+    <!--  <LinearLayout 
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:text="MM"
+            android:textColor="#000000"
+            
+            android:textSize="20dp"
+            android:typeface="serif" />
+        
+        <EditText
+            android:id="@+id/timemm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:inputType="time" />
+        </LinearLayout>
+     -->
+ <LinearLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:orientation="vertical" >
+
+     <TextView
+         android:id="@+id/odo_driver"
+         android:layout_width="332dp"
+         android:layout_height="wrap_content"
+       
+         android:text="Driver             "
+         android:textColor="#000000"
+           android:textSize="18sp"
+         android:typeface="normal" />
+
+     <Spinner
+            android:id="@+id/driverspinner"
+            android:layout_width="fill_parent"
+          
+            android:layout_height="wrap_content" />
+ </LinearLayout>
+ <!-- <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#b7c3c2" />
+ -->    
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal" >
+
+         <TextView
+             android:id="@+id/odo_entry"
+             android:layout_width="155dp"
+             android:layout_height="wrap_content"
+             android:text="Odometer Entry"
+             android:textColor="#000000"
+             android:textSize="18sp"
+             android:typeface="serif" />
+
+         <ImageView
+             android:id="@+id/img"
+             android:layout_width="100dp"
+             android:layout_height="30dp"
+          
+          android:background="@drawable/trck"
+              android:textColor="#000000"/>
+         
+         
+         
+         
+     </LinearLayout>
+     
+       <EditText
+             android:id="@+id/odometer"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+            android:inputType="number"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+              android:textColor="#000000"/>
+         
+         
+ 
+    <!--   <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#b7c3c2" /> -->
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/odo_remark"
+            android:layout_width="312dp"
+            android:layout_height="wrap_content"
+           
+            android:text="Remark           "
+            android:textColor="#000000"
+              android:textSize="18sp"
+            android:typeface="serif" />
+
+         <EditText
+            android:id="@+id/remark"
+            android:layout_width="400dp"
+            android:textColor="#000000"
+            android:layout_height="wrap_content" 
+               android:focusable="true"
+            android:focusableInTouchMode="true"
+            />
+    </LinearLayout>
+<!--  <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#b7c3c2" /> -->
+    
+   <!-- <Button
+       android:id="@+id/odosubmitbutton"
+       android:layout_width="150dp"
+         android:textSize="18sp"
+       android:layout_height="50dp"
+       android:layout_gravity="center"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/sub"
+      
+      android:paddingEnd="30dp"
+    
+       android:textColor="#000000"
+        /> -->
+        
+          <Button
+        android:id="@+id/odosubmitbutton"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Submit"
+          android:layout_marginTop="50dp"
+        android:background="@drawable/highlighed" />
+   
+   <RelativeLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="55dp"
+    >
+    <include layout="@layout/footer" />
+    
+    </RelativeLayout>
+   
+</LinearLayout>
+
+</ScrollView>

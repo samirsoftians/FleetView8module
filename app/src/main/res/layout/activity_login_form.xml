@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.fleetviewandroid.LoginForm"
+    android:orientation="vertical"
+    android:background="#085AA0">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <include
+            layout="@layout/header"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="50dp"
+            android:hint="User ID"
+            android:textColorHint="#FFFFFF"
+            android:textStyle="bold"
+            android:id="@+id/loginform_user_name"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:textColorHint="#FFFFFF"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:hint="Password"
+            android:id="@+id/loginform_user_password"
+            android:layout_below="@+id/loginform_user_name"
+            android:layout_alignLeft="@+id/loginform_user_name"
+            android:layout_alignStart="@+id/loginform_user_name"
+            android:layout_marginTop="51dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOG IN"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/highlighed"
+            android:id="@+id/login_form_login_button"
+            android:layout_marginTop="98dp"
+            android:layout_below="@+id/loginform_user_password"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+</LinearLayout>

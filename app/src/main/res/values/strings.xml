@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Login</string>
+    <string name="main">Main Form</string>
+    <string name="app">FleetView</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+    <color name="background">#2B60DE</color>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_safe2_school">Safe2SchoolActivity</string>
+    <string name="title_activity_safe2_school_map">Safe2SchoolMap</string>
+    <string name="title_activity_map_safe2_school">MapSafe2School</string>
+
+</resources>

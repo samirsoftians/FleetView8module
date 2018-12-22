@@ -1,0 +1,65 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
+
+    defaultConfig {
+        applicationId "com.example.FleetView"
+        minSdkVersion 16
+        targetSdkVersion 25
+    }
+    buildTypes
+            {
+                release
+                        {
+                            minifyEnabled false
+                            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+                        }
+            }
+}
+dependencies
+        {
+            compile 'com.android.support:support-v4:23.4.0'
+        }
+dependencies
+        {
+            compile 'com.google.android.gms:play-services-base:8.1.0'
+            compile 'com.google.android.gms:play-services-maps:8.1.0'
+            compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+            compile 'com.android.support:recyclerview-v7:23.2.0'
+            compile 'com.squareup.picasso:picasso:2.5.2'
+            compile 'com.android.support:appcompat-v7:23.1.1'
+            compile 'com.android.support:design:23.1.1'
+            compile 'com.android.support:recyclerview-v7:23.1.1'
+
+
+        }
+android
+        {
+            useLibrary 'org.apache.http.legacy'
+        }
+dependencies {
+    compile 'com.android.support:appcompat-v7:23.+'
+}
+dependencies {
+    compile 'com.android.support:support-v4:23.+'
+}
+dependencies {
+    compile 'com.android.support:support-v4:23.+'
+}
+dependencies {
+    compile 'com.android.support:support-v4:23.+'
+}
+dependencies {
+    compile 'com.android.support:support-v4:23.+'
+}
+dependencies {
+//    compile 'com.google.android.gms:play-services:4.2.42'
+    compile 'com.android.support:appcompat-v7:23.+'
+}
+dependencies {
+    compile 'com.android.support:support-v4:23.+'
+}
+
+
+

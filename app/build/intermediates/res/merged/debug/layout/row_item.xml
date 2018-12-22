@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:src="@drawable/currentposition"
+        android:id="@+id/imageview"
+        android:layout_width="80dp"
+        android:layout_height="100dp"/>
+
+    <RelativeLayout
+        android:layout_marginLeft="100dp"
+        android:layout_width="300dp"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/Vnotxt"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:text="VNUM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="300dp"
+            android:layout_height="100dp">
+
+           <TextView
+               android:text="datetime"
+               android:id="@+id/datetime"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="70dp"
+            android:layout_width="300dp"
+            android:layout_height="100dp">
+
+
+            <TextView
+                android:textStyle="bold"
+                android:text="LOCATION"
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

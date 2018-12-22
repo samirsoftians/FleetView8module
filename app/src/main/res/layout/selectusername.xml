@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+   android:background="#8b9dc3">
+    
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter the Transporter to view its Vehicles and Reports"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+      android:layout_marginTop="10dp"
+        />
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserName:"
+        android:textColor="#ffffff"
+        android:layout_marginTop="30dp"
+        android:textSize="18dp"
+        />
+    
+       <AutoCompleteTextView
+           android:id="@+id/autotransprter"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_marginTop="30dp"
+           android:background="@drawable/edittext_design"
+           android:hint="Enter Transpoter"
+           android:textSize="15dp" />
+
+       
+         
+       <Button
+        android:id="@+id/submit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+            android:background="#3b5998"
+         android:layout_marginTop="230dp"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:text="Submit" />
+</LinearLayout>
